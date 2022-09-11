@@ -1,0 +1,18 @@
+add a down arrow to enlarge with scroll and jump to next page
+animate arrow icon
+make about page
+
+*add DP to mid
+  refer StaticImage
+  make position absolute
+  border radius
+  image zoom
+
+create a page overlay on the landing page opacity 0
+and with scroll opacity increase dark
+  fixed position
+  opacity 0
+
+create skill board
+
+--------------

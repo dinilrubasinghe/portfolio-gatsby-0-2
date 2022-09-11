@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+
+$font-home-body: "Comfortaa",cambria, cursive;
+$font-home-title: "DM Serif Display",serat,cambria,cursive;
+$font-about-body: Monospace,"Lucida Grenade",arial;
+$font-about-title: serat,courage,"Playfair Display",sans-serif;
+$font-size: 12px;
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: $font-size;
+  text-decoration: none;
+}
+
+html {
+  scroll-snap-type: mandatory;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
+
+body {
+  padding: 0 5%;
+  // margin-bottom: 10%;
+}
+
+li {
+  list-style: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #c0c0c0;
+}
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.animate__delay_0_25 {
+  animation-delay: 0.25s;
+} 
+.animate__delay_0_5 {
+  animation-delay: 0.5s;
+} 
+.animate__delay_0_75 {
+  animation-delay: 0.75s;
+} 
+.animate__delay_0_85 {
+  animation-delay: 0.85s;
+} 
+.animate__delay_0_95 {
+  animation-delay: 0.95s;
+} 
+.animate__delay_1 {
+  animation-delay: 1s;
+}
