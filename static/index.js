@@ -1,6 +1,3 @@
-window.addEventListener('load', () => {
-  window.scrollTo(0,0)
-})
 
 window.addEventListener('scroll', () => {
   const scrollPosition = window.pageYOffset
